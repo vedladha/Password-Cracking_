@@ -2,8 +2,6 @@
 /**
  * This class is a tester class
  */
-
-
 public class PasswordCrackingTester {
 
     /**
@@ -165,7 +163,7 @@ public class PasswordCrackingTester {
         return true;
     }
 
-    // GIVE TO STUDENTS
+    
     public static boolean testToString() {
         try {
             PasswordStorage bst = new PasswordStorage(Attribute.OCCURRENCE);
@@ -223,7 +221,7 @@ public class PasswordCrackingTester {
         return true;
     }
 
-    // GIVE TO STUDENTS
+  
     public static boolean testIsValidBST() {
         try {
             PasswordStorage bst = new PasswordStorage(Attribute.OCCURRENCE);
@@ -476,8 +474,6 @@ public class PasswordCrackingTester {
         System.out.println("PasswordStorage lookup: " + (lookupPassed ? "PASS" : "FAIL"));
         System.out.println("PasswordStorage addPassword: " + (addPasswordPassed ? "PASS" : "FAIL"));
         System.out.println("PasswordStorage removePassword: " + (removePasswordPassed ? "PASS" : "FAIL"));
-
-        // AND ANY OTHER ADDITIONAL TEST METHODS YOU MAY WANT TO WRITE!
 
         return compareToPassed && nodeStatusPassed && basicMethodsPassed && toStringPassed
                 && isValidBSTPassed && lookupPassed && addPasswordPassed && removePasswordPassed;
