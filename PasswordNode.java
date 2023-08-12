@@ -9,7 +9,7 @@ public class PasswordNode{
      * 1-argument constructor that sets the only data of the node.
      *
      * @param password the password for this node to store
-     * @author Michelle
+     * 
      */
     public PasswordNode(Password password) {
         this.password = password;
@@ -22,7 +22,7 @@ public class PasswordNode{
      * @param left,     the reference to the node that is the left child
      * @param right,    the reference to the node that is the right child
      *
-     * @author Michelle
+     * 
      */
     public PasswordNode(Password password, PasswordNode left, PasswordNode right) {
         this.password = password;
@@ -35,7 +35,7 @@ public class PasswordNode{
      *
      * @param left, the reference to the node to be the left child
      *
-     * @author Michelle
+     * 
      */
     public void setLeft(PasswordNode left) {
         this.left = left;
@@ -46,7 +46,7 @@ public class PasswordNode{
      *
      * @param right, the reference to the node to be the right child
      *
-     * @author Michelle
+     * 
      */
     public void setRight(PasswordNode right) {
         this.right = right;
@@ -57,7 +57,7 @@ public class PasswordNode{
      *
      * @return the reference to the node that is the left child
      *
-     * @author Michelle
+     * 
      */
     public PasswordNode getLeft() {
         return this.left;
@@ -68,7 +68,7 @@ public class PasswordNode{
      *
      * @return the reference to the node that is the right child
      *
-     * @author Michelle
+     * 
      */
     public PasswordNode getRight() {
         return this.right;
@@ -79,7 +79,7 @@ public class PasswordNode{
      *
      * @return the password object that this node stores
      *
-     * @author Michelle
+     * 
      */
     public Password getPassword() {
         return this.password;
