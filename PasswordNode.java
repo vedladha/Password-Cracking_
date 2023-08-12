@@ -25,7 +25,7 @@ public class PasswordNode{
      * @author Michelle
      */
     public PasswordNode(Password password, PasswordNode left, PasswordNode right) {
-        this(password);
+        this.password = password;
         this.left = left;
         this.right = right;
     }
