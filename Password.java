@@ -1,29 +1,4 @@
-//////////////// FILE HEADER (INCLUDE IN EVERY FILE) //////////////////////////
-//
-// Title:    Password
-// Course:   CS 300 Spring 2023
-//
-// Author:   Vedant Ladha
-// Email:    vladha@wisc.edu
-// Lecturer: Mouna Kacem
-//
-//////////////////// PAIR PROGRAMMERS COMPLETE THIS SECTION ///////////////////
-//
-// Partner Name:    NA
-// Partner Email:   NA
-// Partner Lecturer's Name: NA
-//
-// VERIFY THE FOLLOWING BY PLACING AN X NEXT TO EACH TRUE STATEMENT:
-//   ___ Write-up states that pair programming is allowed for this assignment.
-//   ___ We have both read and understand the course Pair Programming Policy.
-//   ___ We have registered our team prior to the team registration deadline.
-//
-///////////////////////// ALWAYS CREDIT OUTSIDE HELP //////////////////////////
-//
-// Persons:         NA
-// Online Sources:  NA
-//
-///////////////////////////////////////////////////////////////////////////////
+
 import java.math.BigInteger;
 import java.nio.DoubleBuffer;
 import java.security.MessageDigest;
